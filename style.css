@@ -1,0 +1,15 @@
+body {
+  padding: 10px;
+}
+
+input {
+  margin: 5px;
+}
+@media all and (min-width: 600px) {
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+  }
+}
